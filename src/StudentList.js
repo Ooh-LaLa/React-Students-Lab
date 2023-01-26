@@ -5,7 +5,7 @@ const StudentList = (props) => {
   console.log(props, "STUDENT LIST TEST!");
   return (
   <>
-  <h2>This is a student list component</h2>
+  <h1>This is a student list 🧑‍🎓</h1>
     {props.students.map(student => 
       <Student key={student.name}  student={student}/>      
     )}

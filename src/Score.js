@@ -4,8 +4,10 @@ const Score = (props) => {
   console.log(props, "SCORE TEST!!");
   return(
     <>
-      <div>Test Date: {props.score.date}</div>
-      <div>Score: {props.score.score}</div>
+     - 
+      <div class="date">Test Date: {props.score.date}</div>
+      <div class="score">Score: {props.score.score}</div>
+     - 
     </>
       )
 }

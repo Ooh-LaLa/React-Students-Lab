@@ -5,10 +5,11 @@ const Student =(props) => {
     console.log(props, "STUDENT TEST!!");
     return(
         <>
-        <h1>Profiles!</h1>
-       <h2>{props.student.name}</h2>
-       <h2>{props.student.bio}</h2>
-       <h1>Scores!</h1>
+        <h2>Profile:</h2>
+       <h3>{props.student.name}</h3>
+       <h4>{props.student.bio}</h4>
+
+       <h3>Score:</h3>
        {props.student.scores.map((score, idx)=>
          <Score score={score} key={idx} />
        )}
